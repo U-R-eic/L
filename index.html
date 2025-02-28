@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanz Mit Mir?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="intro" id="intro">
+      <div class="intro-text">
+        <h1>Hallo Luca</h1>
+        <p>Ich habe eine Frage...</p>
+      </div>
+    </div>
+    
+    <div class="container" id="main-content">
+      <div class="content">
+        <h1>Möchtest du mit mir tanzen?</h1>
+        <div class="buttons">
+          <button id="yes-btn">Ja, sehr gerne!</button>
+          <button id="no-btn">Nein, danke</button>
+        </div>
+        <div id="response" class="hidden"></div>
+        <div id="whatsapp-message" class="hidden">
+          <p>Schreib mir bitte deine Antwort auf WhatsApp, da ich das hier nicht sehen kann.</p>
+        </div>
+      </div>
+    </div>
+    
+    <audio id="background-music" loop>
+        <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+    
+    <button id="music-toggle" class="music-button">
+      <span class="music-icon">♫</span>
+    </button>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
