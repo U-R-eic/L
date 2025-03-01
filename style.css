@@ -40,7 +40,7 @@
   .intro-text h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    text-shadow: 0 0 15px rgba(255, 69, 0, 0.8);
+    text-shadow: 0 0 15px rgba(255, 0, 195, 0.8);
   }
   
   .intro-text p {
@@ -91,14 +91,14 @@
     background-color: rgba(20, 20, 20, 0.8);
     padding: 3rem;
     border-radius: 15px;
-    box-shadow: 0 0 30px rgba(255, 69, 0, 0.3);
+    box-shadow: 0 0 30px rgba(255, 0, 204, 0.3);
     backdrop-filter: blur(5px);
     transform: translateY(0);
     transition: transform 0.5s ease, box-shadow 0.5s ease;
     position: relative;
     overflow: hidden;
-    border-left: 3px solid #ff4500;
-    border-right: 3px solid #ff7800;
+    border-left: 3px solid #ff0080;
+    border-right: 3px solid #ff00ae;
   }
   
   .content::before {
@@ -108,24 +108,24 @@
     left: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(90deg, #ff4500, #ff7800);
+    background: linear-gradient(90deg, #ff00bf, #ff0095);
   }
   
   .content:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 40px rgba(255, 69, 0, 0.5);
+    box-shadow: 0 0 40px rgba(247, 0, 255, 0.5);
   }
   
   .burning {
-    box-shadow: 0 0 40px rgba(255, 69, 0, 0.8);
+    box-shadow: 0 0 40px rgba(255, 0, 230, 0.8);
   }
   
   h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    text-shadow: 0 0 10px rgba(255, 69, 0, 0.7);
+    text-shadow: 0 0 10px rgba(255, 0, 128, 0.7);
     letter-spacing: 1px;
-    color: #ff7800;
+    color: #ff00bb;
   }
   
   .buttons {
@@ -148,14 +148,14 @@
   }
   
   #yes-btn {
-    background: linear-gradient(45deg, #ff4500, #ff7800);
+    background: linear-gradient(45deg, #ff00cc, #ff0099);
     color: white;
   }
   
   #yes-btn:hover {
-    background: linear-gradient(45deg, #ff7800, #ff4500);
+    background: linear-gradient(45deg, #ff0099, #ff00a6);
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(255, 69, 0, 0.7);
+    box-shadow: 0 0 20px rgba(255, 0, 234, 0.7);
   }
   
   #no-btn {
@@ -202,8 +202,8 @@
     font-size: 1.5rem;
     opacity: 0;
     transition: opacity 0.5s ease;
-    text-shadow: 0 0 10px rgba(255, 69, 0, 0.7);
-    color: #ff6347;
+    text-shadow: 0 0 10px rgba(255, 0, 115, 0.7);
+    color: #ff47ac;
   }
   
   #response.visible {
@@ -215,8 +215,8 @@
     font-size: 1.2rem;
     opacity: 0;
     transition: opacity 0.5s ease;
-    text-shadow: 0 0 10px rgba(255, 69, 0, 0.7);
-    color: #ff7800;
+    text-shadow: 0 0 10px rgba(255, 0, 217, 0.7);
+    color: #ff00bf;
   }
   
   #whatsapp-message.visible {
@@ -239,7 +239,7 @@
     font-size: 2rem;
     margin-top: 1rem;
     animation: heartbeat 1.5s infinite;
-    color: #ff4500;
+    color: #ff00bf;
   }
   
   @keyframes heartbeat {
@@ -277,13 +277,13 @@
     align-items: center;
     cursor: pointer;
     z-index: 100;
-    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5);
-    border: 1px solid rgba(255, 69, 0, 0.3);
+    box-shadow: 0 0 15px rgba(255, 0, 174, 0.5);
+    border: 1px solid rgba(255, 0, 174, 0.3);
   }
   
   .music-icon {
     font-size: 1.5rem;
-    color: #ff4500;
+    color: #ff00c3;
     animation: pulse 2s infinite;
   }
   
@@ -302,8 +302,8 @@
   .dramatic-text {
     font-size: 1.8rem;
     font-weight: bold;
-    text-shadow: 0 0 15px rgba(255, 69, 0, 1);
-    color: #ff6347;
+    text-shadow: 0 0 15px rgb(255, 0, 183);
+    color: #f947ff;
   }
   
   .shake-animation {
