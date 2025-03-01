@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (backgroundMusic.muted) {
         backgroundMusic.muted = false;
         backgroundMusic.play();
-        musicToggle.style.boxShadow = '0 0 15px rgba(255, 69, 0, 0.9)';
+        musicToggle.style.boxShadow = '0 0 15px rgba(208, 0, 255, 0.9)';
       } else {
         backgroundMusic.muted = true;
-        musicToggle.style.boxShadow = '0 0 15px rgba(255, 69, 0, 0.5)';
+        musicToggle.style.boxShadow = '0 0 15px rgba(255, 0, 255, 0.5)';
       }
     });
     
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Unmute and play music if it's not already playing
       if (backgroundMusic.muted) {
         backgroundMusic.muted = false;
-        musicToggle.style.boxShadow = '0 0 15px rgba(255, 69, 0, 0.9)';
+        musicToggle.style.boxShadow = '0 0 15px rgba(255, 0, 242, 0.9)';
       }
       backgroundMusic.play();
     });
@@ -82,6 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
       
       // Make the Yes button more attractive
       yesBtn.style.transform = 'scale(1.2)';
-      yesBtn.style.boxShadow = '0 0 30px rgba(255, 69, 0, 0.9)';
+      yesBtn.style.boxShadow = '0 0 30px rgba(255, 0, 221, 0.9)';
     });
 });
